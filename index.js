@@ -3,7 +3,7 @@
 function writeCards( names, gift ) {
   let cards = []
   for ( let i = 0; i < namesArray.length; i++ ) {
-    thankYouCards.push( `Thank you, ${names[i]}, for the wonderful ${gift} gift!` )
+    cards.push( `Thank you, ${names[i]}, for the wonderful ${gift} gift!` )
   }
   return thankYouCards
 }
