@@ -1,16 +1,17 @@
 // Code your solutions in this file
-cards = (["Ada", "Brendan", "Ali"], "birthday");
-function writeCards(cards) {
-  for (let i = 0; i < cards.length; i++) {
-    console.log(`Thank you, ${cards[[i]]}, for the wonderful ${cards[length - 1]} gift`)
-  }
-  return cards;
-}
-writeCards(cards);
 
-function countDown() {
-  let i = 10;
-  while (i > 0) {
-    console.log(i--);
+function writeCards( names, gift ) {
+  let cards = []
+  for ( let i = 0; i < namesArray.length; i++ ) {
+    thankYouCards.push( `Thank you, ${names[i]}, for the wonderful ${gift} gift!` )
   }
+  return thankYouCards
+}
+
+function countDown(start) {
+while (start > 0) {
+  console.log(start)
+  start -= 1;
+}
+console.log(start)
 }
